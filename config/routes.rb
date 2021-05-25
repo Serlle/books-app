@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
   get '/books', to: 'books#index'
-  get '/pages/:name', to: 'pages#home'
+  get '/pages/home', to: 'pages#home', as: "home"
 
 end
