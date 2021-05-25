@@ -1,5 +1,9 @@
-<h1>En cinco años tendrás <%= params[:age].to_i + 5 %> años</h1>
-<!-- El "query string" es el conjunto de propiedades que van después del signo de interrogación (?) de un URL. Rails automáticamente convierte las propiedades en el hash params que puedes acceder desde el controlador o la vista.
+<!-- <h1>En cinco años tendrás <%= params[:age].to_i + 5 %> años</h1>
+El "query string" es el conjunto de propiedades que van después del signo de interrogación (?) de un URL. Rails automáticamente convierte las propiedades en el hash params que puedes acceder desde el controlador o la vista.
 Por ejemplo
 http://localhost:3000/?age=30.
 Los datos del metodo o actuador se modifican o controla desde la URL-->
+
+<h1>
+  Este es el nombre del parametro que está en la URL ---> <%= @name%> 
+</h1>
